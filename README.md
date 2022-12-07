@@ -30,3 +30,4 @@ These are the passwords for each of the 24 doors. Do not take them too seriously
 1. NanoIsForPlebs
 2. Bogosort>Quicksort
 3. BoycottJavascript
+4. SegmentationFault
