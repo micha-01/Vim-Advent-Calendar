@@ -2,11 +2,18 @@
 
 # FOR AUTOMATIC UNZIPPING
 AUTO_UNZIP=false # can be true or false
-
+    
+# get first cmd line argument
+DAY_ARG=$1
 
 unzip_repo() {
     # Save current day as integer (e.g. 12) in DAY 
-    printf -v DAY '%(%-d)T' -1
+    DAY=-1
+    if [ -z "$DAY_ARG" ]; then
+        printf -v DAY '%(%-d)T' -1
+    else
+        DAY=$DAY_ARG
+    fi
 
     # get base directory of current script
     REPO_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd ) 
