@@ -1,11 +1,17 @@
 #!/bin/bash
 
+# files and directories
 README="README.md"
 REPO_DIR="$HOME/Documents/Programming/Vim-Calendar"
-GIT=$(which git)
-printf -v DAY '%(%-d)T\n' -1 # Save current day as integer (e.g. 12) in DAY
+PW_FILE="$REPO_DIR/passwords.txt"
 
+# current day and path to current door
+printf -v DAY '%(%-d)T' -1 # Save current day as integer (e.g. 12) in DAY 
+DOOR="$REPO_DIR/Door_$DAY"
+
+# stage, commit and push to github
 cd $REPO_DIR
-$GIT add "$REPO_DIR/$README"
-$GIT commit -m "Updated $README on day $DAY"
-$GIT push -u origin main
+COMMIT_MSG="Updated $README on day $DAY"
+git add "$REPO_DIR/$README" $DOOR
+git commit -m "$COMMIT_MSG"
+git push -u origin main
