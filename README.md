@@ -23,6 +23,7 @@ If you'd like to automatically open the current door (i.e. unzip the door), do t
 Now each door is automatically opened at 00:01 every day.
 
 ## 🔒 Passwords
+These are the passwords for each of the 24 doors. Do not take them too seriously:)
 1. NanoIsForPlebs
 2. Bogosort>Quicksort
 
