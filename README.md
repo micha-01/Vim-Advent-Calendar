@@ -1,4 +1,4 @@
-# Vim-Advent-Calendar
+# 🎁 Vim-Advent-Calendar
 A calendar all about (probably) the best editor there has ever existed:)
 As you can tell, I'm just a little bit biased, but this does not mean, that you cannot form you own opinions.
 So try all the things in the calendar to get a good idea of the power and capabilities of (Neo)Vim.
