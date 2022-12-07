@@ -20,6 +20,11 @@ If you'd like to automatically open the current door (i.e. unzip the door), do t
 3. Add the following to your cron jobs using `crontab -e`:
     `01 00 * * * absolute/path/to/auto_unzip.sh`
 
+Or you can automatically open all doors, that can already be opened:
+1. Set `OPEN_ALL_DOORS=true` in `auto_unzip.sh`
+2. Add execution permissions using `chmod u+x path/to/auto_unzip.sh`
+3. Execute it using `path/to/auto_unzip.sh` (`./auto_unzip.sh` if in same directory)
+
 Now each door is automatically opened at 00:01 every day.
 
 # 🎄 Merry Christmas!
