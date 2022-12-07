@@ -5,7 +5,7 @@ So try all the things in the calendar to get a good idea of the power and capabi
 You're going to learn the basics, random tricks, configuration and (some) advanced usage.
 Maybe it is a bit much for 24 days, but if you continue to use (Neo)Vim, you'll be amazed how great it is:)
 
-## Get started
+## 🚦 Get started
 1. Clone git repo using ssh: `git clone git@github.com:micha-01/Vim-Calendar.git`
 2. Have a look at the prerequisites: `prerequisites.md`
 3. Pull to get the password for the day: `git pull`
@@ -13,7 +13,7 @@ Maybe it is a bit much for 24 days, but if you continue to use (Neo)Vim, you'll 
 5. Repeat the steps 3 and 4 for 23 times.
 52. Profit:)
 
-## Automatically open Doors
+## 🪄 Automagically open Doors
 If you'd like to automatically open the current door (i.e. unzip the door), do the following:
 1. Set `AUTO_UNZIP=true` in `auto_unzip.sh`
 2. Add execution permissions using `chmod u+x path/to/auto_unzip.sh`
@@ -22,7 +22,7 @@ If you'd like to automatically open the current door (i.e. unzip the door), do t
 
 Now each door is automatically opened at 00:01 every day.
 
-## Passwords
+## 🔓 Passwords
 1. NanoIsForPlebs
 2. Bogosort>Quicksort
 
