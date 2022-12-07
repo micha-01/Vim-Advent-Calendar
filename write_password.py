@@ -8,7 +8,7 @@ def get_passwords() -> dict:
     password_file: str = 'passwords.txt'
     with open(ROOT.joinpath(password_file).as_posix()) as f:
         for i in range(24):
-            passwords[i + 1] = f.readline().split(" ")[-1].replace('\n', '')
+            passwords[i + 1] = f.readline().split(" ")[-1]
     return passwords
 
 
