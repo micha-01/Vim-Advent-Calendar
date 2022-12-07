@@ -32,3 +32,4 @@ These are the passwords for each of the 24 doors. Do not take them too seriously
 3. BoycottJavascript
 4. SegmentationFault
 5. CoreDumped
+6. DasistdasHausvomSamichlaus
