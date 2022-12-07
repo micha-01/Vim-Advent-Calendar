@@ -22,9 +22,10 @@ If you'd like to automatically open the current door (i.e. unzip the door), do t
 
 Now each door is automatically opened at 00:01 every day.
 
-## 🔓 Passwords
+## 🔒 Passwords
 1. NanoIsForPlebs
 2. Bogosort>Quicksort
 
 ![xkcd 378](https://imgs.xkcd.com/comics/real_programmers.png)
 
+Merry Christmas:)
