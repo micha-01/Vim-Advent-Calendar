@@ -16,16 +16,18 @@ def find_day() -> int:
     return datetime.now().date().day
 
 
-def write_pw_file(today: int, password: str):
-    readme: str = 'README.md'
-    with open(ROOT.joinpath(readme).as_posix(), 'a') as f:
+def write_pw_file(today: int, password: str, file: str):
+    with open(ROOT.joinpath(file).as_posix(), 'a') as f:
         f.write(f"{today}. {password}")
 
 
 def main():
     passwords: dict = get_passwords()
     today: int = find_day()
-    write_pw_file(today, passwords[today])
+    readme: str = 'README.md'
+    passwords: str = 'passwords.md'
+    write_pw_file(today, passwords[today], readme)
+    write_pw_file(today, passwords[today], passwords)
 
 
 if __name__ == "__main__":
