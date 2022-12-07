@@ -13,8 +13,6 @@ Maybe it is a bit much for 24 days, but if you continue to use (Neo)Vim, you'll 
 5. Repeat the steps 3 and 4 for 23 times.
 52. Profit:)
 
-![xkcd 378](https://imgs.xkcd.com/comics/real_programmers.png)
-
 ## Automatically open Doors
 If you'd like to automatically open the current door (i.e. unzip the door), do the following:
 1. Set `AUTO_UNZIP=true` in `auto_unzip.sh`
@@ -27,3 +25,6 @@ Now each door is automatically opened at 00:01 every day.
 ## Passwords
 1. NanoIsForPlebs
 2. Bogosort>Quicksort
+
+![xkcd 378](https://imgs.xkcd.com/comics/real_programmers.png)
+
