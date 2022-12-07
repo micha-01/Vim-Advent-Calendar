@@ -14,3 +14,7 @@ Maybe it is a bit much for 24 days, but if you continue to use (Neo)Vim, you'll 
 52. Profit:)
 
 ![xkcd 378](https://imgs.xkcd.com/comics/real_programmers.png)
+
+## Passwords
+1. NanoIsForPlebs
+
