@@ -38,3 +38,4 @@ These are the passwords for each of the 24 doors. Do not take them too seriously
 4. SegmentationFault
 5. CoreDumped
 6. DasistdasHausvomSamichlaus
+7. AlanTuring
