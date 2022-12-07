@@ -26,6 +26,5 @@ Now each door is automatically opened at 00:01 every day.
 1. NanoIsForPlebs
 2. Bogosort>Quicksort
 
+# 🎄 Merry Christmas!
 ![xkcd 378](https://imgs.xkcd.com/comics/real_programmers.png)
-
-Merry Christmas:)
