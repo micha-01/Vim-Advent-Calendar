@@ -5,7 +5,7 @@ So try all the things in the calendar to get a good idea of the power and capabi
 You're going to learn the basics, random tricks, configuration and (some) advanced usage.
 Maybe it is a bit much for 24 days, but if you continue to use (Neo)Vim, you'll be amazed how great it is:)
 
-## 🚦 Get started
+## 🚀 Get started
 1. Clone git repo using ssh: `git clone git@github.com:micha-01/Vim-Calendar.git`
 2. Have a look at the prerequisites: `prerequisites.md`
 3. Pull to get the password for the day: `git pull`
