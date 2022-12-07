@@ -17,3 +17,4 @@ Maybe it is a bit much for 24 days, but if you continue to use (Neo)Vim, you'll 
 
 ## Passwords
 1. NanoIsForPlebs
+2. Bogosort>Quicksort
