@@ -10,7 +10,7 @@ Maybe it is a bit much for 24 days, but if you continue to use (Neo)Vim, you'll 
 2. Have a look at the prerequisites: `prerequisites.md`
 3. Pull to get the password for the day: `git pull`
 4. Unzip each door using the password for the given day: `unzip -P <PASSWORD> path/to/Door_<X>`.
-5. Repeat the steps 3 and 4 for 23 times.
+5. Repeat the steps 3 and 4 every day until Christmas.
 52. Profit:)
 
 ## ✨ Automagically open Doors
