@@ -12,7 +12,7 @@ Vim is a modal editor, i.e. has 6 basic modes, 4 of which you are going to learn
 - Visual mode: Similar to normal mode, but used to highlight areas of text.
   Normal commands can be run on the highlighted area, for instance to move or edit a selection.
 - Insert mode: Similar to editing in most modern editors. In this mode, buffers can be modified with the text inserted.
-- Command-line: Supports a single line input at the bottom of the Vim window.
+- Command-line mode: Supports a single line input at the bottom of the Vim window.
   Normal commands (beginning with ':'), and some other keys for specific actions (including pattern search and the filter command) activate this mode.
   On completion of the command, Vim returns to the previous mode.
 
