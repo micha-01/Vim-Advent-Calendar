@@ -4,7 +4,8 @@
 (Neo)Vim is a *really* powerful modal editor.
 
 ## Configuration
-It is strongly recommended to use Neovim with [LunarVim](https://github.com/LunarVim/LunarVim) as your starting configuration.
+It is strongly recommended to use Neovim with [LunarVim](https://github.com/LunarVim/LunarVim) as your starting configuration, 
+if you are new to (Neo)Vim or do not want to setup everything by yourself.
 
 ## Modes
 Vim is a modal editor, i.e. has 6 basic modes, 4 of which you are going to learn about:
