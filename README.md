@@ -39,3 +39,4 @@ These are the passwords for each of the 24 doors. Do not take them too seriously
 6. DasistdasHausvomSamichlaus
 7. AlanTuring
 8. IuseArchbtw
+9. WingardiumLeviosa
