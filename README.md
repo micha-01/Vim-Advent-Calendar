@@ -26,6 +26,9 @@ Or you can automatically open all doors, that can already be opened:
 2. Add execution permissions using `chmod u+x path/to/auto_unzip.sh`
 3. Execute it using `path/to/auto_unzip.sh` (`./auto_unzip.sh` if in same directory)
 
+## 🤝 Contribution
+If you spot a mistake or have an idea to improve the project, create an issue.
+
 # 🎄 Merry Christmas!
 ![xkcd 378](https://imgs.xkcd.com/comics/real_programmers.png)
 
