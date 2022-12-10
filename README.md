@@ -44,3 +44,4 @@ These are the passwords for each of the 24 doors. Do not take them too seriously
 8. IuseArchbtw
 9. WingardiumLeviosa
 10. P=NP
+11. Rowhammer
