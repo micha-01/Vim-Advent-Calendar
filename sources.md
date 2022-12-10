@@ -6,4 +6,5 @@ Thank you for all the information!
 - https://vim.rtorr.com/
 - ThePrimeagen (https://www.youtube.com/@ThePrimeagen)
 - Sebastian Daschner (https://www.youtube.com/@SebastianDaschnerIT)
+- Reddit: https://www.reddit.com/r/AskReddit/comments/1kvhmz/whats_the_best_programming_joke_that_you_know/
 - ...
