@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-# FOR AUTOMATIC UNZIPPING
-AUTO_UNZIP=false # can be true or false
+### VARIABLES TO CHANGE ###
+AUTO_UNZIP=false # FOR AUTOMATIC UNZIPPING
+OPEN_ALL_DOORS=false # AUTOMAGICALLY OPEN ALL DOORS
 
-# AUTOMAGICALLY OPEN ALL DOORS
-OPEN_ALL_DOORS=false
+# ---------------------------------------------------------
 
 unzip_repo() {
     # Save current day as integer (e.g. 12) in DAY 
@@ -47,13 +47,13 @@ update_repo() {
 }
 
 main() {
+    update_repo
+
     if $AUTO_UNZIP; then
-        update_repo
         unzip_repo $1
     fi
 
     if $OPEN_ALL_DOORS; then
-        update_repo
         open_all_doors
     fi
     return 0
