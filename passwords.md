@@ -13,3 +13,4 @@
 12. MemoryLeaksWithGarbageCollection
 13. unsatisfiable
 14. Carmichael
+15. SingularValueDecomposition
