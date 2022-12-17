@@ -51,3 +51,4 @@ These are the passwords for each of the 24 doors. Do not take them too seriously
 15. SingularValueDecomposition
 16. Sectumsempra
 17. XÆA-12
+18. KolmogorovComplexity
