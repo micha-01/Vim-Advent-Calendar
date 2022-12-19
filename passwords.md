@@ -18,3 +18,4 @@
 17. XÆA-12
 18. KolmogorovComplexity
 19. WebKit>Chromium
+20. GNU+Linux
