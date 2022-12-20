@@ -1,15 +1,28 @@
 #!/usr/bin/env bash
 
-### VARIABLES TO CHANGE ###
-AUTO_UNZIP=false # FOR AUTOMATIC UNZIPPING
-OPEN_ALL_DOORS=false # AUTOMAGICALLY OPEN ALL DOORS
-
-# ---------------------------------------------------------
+# set CLI arguments
+usage() {
+    cat <<- EOM
+Usage: `basename $0` [OPTION]
+Automagically opens the given door or all of them.
+options:
+    -d, --door [DOOR]       opens the door with the given number         
+    -t, --today             opens the current door
+    --all                   opens all already available doors
+    -h, --help              show this help message and exit
+EOM
+}
 
 unzip_repo() {
     # Save current day as integer (e.g. 12) in DAY 
     if [ -z "$1" ]; then
         printf -v DAY '%(%-d)T' -1
+
+    # check if integer
+    elif [[ "$1" =~ ^[0-9]+$ ]]; then
+        DAY="Door_$1"
+
+    # of form 'Door_X'
     else
         DAY=$1
     fi
@@ -31,7 +44,6 @@ unzip_repo() {
 }
 
 open_all_doors() {
-    AUTO_UNZIP=true
     for ((i = 1; i < 25; i++)); do
         if [ -d "Door_$i" ]; then
             echo "Skipped Door $i; already exists."
@@ -47,15 +59,16 @@ update_repo() {
 }
 
 main() {
-    update_repo
-
-    if $AUTO_UNZIP; then
-        unzip_repo $1
-    fi
-
-    if $OPEN_ALL_DOORS; then
-        open_all_doors
-    fi
+    case "$ARG" in
+        -d | --door) unzip_repo $2
+            ;;
+        -t | --today) unzip_repo
+            ;;
+        --all) open_all_doors
+            ;;
+        *) usage
+            ;;
+    esac
     return 0
 }
 
