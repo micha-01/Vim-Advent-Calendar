@@ -14,17 +14,15 @@ Maybe it is a bit much for 24 days, but if you continue to use (Neo)Vim, you'll 
 52. Profit:)
 
 ## ✨ Automagically open Doors
-If you'd like to automatically open the current door (i.e. unzip the door), do the following:
-1. Set `AUTO_UNZIP=true` in `auto_unzip.sh`
-2. Add execution permissions using `chmod u+x path/to/auto_unzip.sh`
-3. Add the following to your cron jobs using `crontab -e`:
-    `01 00 * * * absolute/path/to/auto_unzip.sh`
+Make sure the script has execute permissions using: `chmod u+x path/to/auto_unzip.sh`
+
+If you'd like to automatically open (i.e. unzip) the current door, do the following:
+- Add the following to your cron jobs using `crontab -e`:
+    `01 00 * * * absolute/path/to/auto_unzip.sh --today`
 Now each door is automatically opened at 00:01 every day.
 
-Or you can automatically open all doors, that can already be opened:
-1. Set `OPEN_ALL_DOORS=true` in `auto_unzip.sh`
-2. Add execution permissions using `chmod u+x path/to/auto_unzip.sh`
-3. Execute it using `path/to/auto_unzip.sh` (`./auto_unzip.sh` if in same directory)
+Or you can automatically open all doors, that can already be opened using the `--all` option.
+Or you can open a specific door using the `-d` (or `--door`) option with a given day as an integer.
 
 ## 🤝 Contribution
 If you spot a mistake or have an idea to improve the project, create an issue.
