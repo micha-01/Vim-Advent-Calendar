@@ -18,10 +18,6 @@ unzip_repo() {
     if [ -z "$1" ]; then
         printf -v DAY '%(%-d)T' -1
 
-    # check if integer
-    elif [[ "$1" =~ ^[0-9]+$ ]]; then
-        DAY="Door_$1"
-
     # of form 'Door_X'
     else
         DAY=$1
@@ -58,18 +54,14 @@ update_repo() {
     git pull $REPO main
 }
 
-main() {
-    case "$ARG" in
-        -d | --door) unzip_repo $2
-            ;;
-        -t | --today) unzip_repo
-            ;;
-        --all) open_all_doors
-            ;;
-        *) usage
-            ;;
-    esac
-    return 0
-}
-
-main
+# argument handling
+case "$1" in
+    -d | --door) unzip_repo $2
+        ;;
+    -t | --today) unzip_repo
+        ;;
+    --all) open_all_doors
+        ;;
+    *) usage
+        ;;
+esac
