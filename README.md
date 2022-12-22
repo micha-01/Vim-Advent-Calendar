@@ -55,3 +55,4 @@ These are the passwords for each of the 24 doors. Do not take them too seriously
 20. GNU+Linux
 21. Lokinet
 22. Bernoulli
+23. TempleOS
