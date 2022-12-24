@@ -56,3 +56,4 @@ These are the passwords for each of the 24 doors. Do not take them too seriously
 21. Lokinet
 22. Bernoulli
 23. TempleOS
+24. ExpectoPatronum
